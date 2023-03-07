@@ -1,0 +1,61 @@
+
+body {
+	background-image: url(https://www.somnomed.com/wp-content/uploads/2016/12/website-background-1.jpg);
+    background-size:;
+}
+.hometitle {
+	color: rgb(3, 39, 49) ;
+	border: 10px solid rgb(0, 0, 0, 0.2);
+    cursor: pointer;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    border-radius: 30px;
+    position: relative;
+    font-weight: 900;
+}
+.para1 {
+	color: black;
+	font-size: x-large;
+	text-align: left;
+	background-color: rgb(0, 0, 0, 0.2);
+	font-family: ariel, sans-serif ;
+	line-height: 40px;
+	margin: 0px 5px;
+
+}
+.para2 {
+	color: black;
+	font-size: x-large;
+	text-align: left;
+	background-color: rgb(0, 0, 0, 0.2);
+	font-family: ariel, sans-serif ;
+	line-height: 40px;
+
+}
+
+li {
+	color: #370037;
+    list: square;
+    display: inline-block;
+    font-family: 'Lato', sans-serif;
+    background-color: rgb(0, 0, 0, 0.2);
+    
+
+}
+
+.frog {
+	float: left;
+}
+
+img {
+	float: right;
+
+}
+
+footer {
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	background-color: rgb(0,0,0,0.2);
+}

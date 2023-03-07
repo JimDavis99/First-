@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Register</title>
+</head>
+<body>
+	<!-- Use GET, not POST -->
+	<div></div>
+	<span></span>
+	<a href='index.html'>Back to Index</a><br>
+	<a href='new page.html'>Back to New Page</a>
+	<form method='GET'>
+		First Name: <input type='text' name='firstname'><hr>
+		Last Name: <input type='text' name='lastname'><hr>
+		Email: <input type='email' name='email' required><hr>
+		Password: <input type='password' name='password' required><hr>
+		Date of Birth: <input type='date' name='dateofbirth'><hr>
+		Gender: <br>
+		<input type='radio' name='gender' value='Male'>male<br>
+		<input type='radio' name='gender' value='Female'>female<br>
+		<input type='radio' name='gender' vlaue='Other'>other<br><hr>
+		Pets: <br>
+		<input type='checkbox' name='cat'> Cat<br>
+		<input type='checkbox' name='dog'> Dog<br>
+		<input type='checkbox' name='fish'> Fish<br>
+		<input type='checkbox' name='other'> Other <br>
+		Cars: <br>
+		<select name='Cars'>
+			<option value='mercedes'>Mercedes</option>
+			<option value='bmw'>BMW</option>
+		</select><br>
+		<input type='submit' value='Register'>		
+		<input type='reset'>
+	</form>
+
+</body>
+</html>
+

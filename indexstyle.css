@@ -1,0 +1,135 @@
+
+body {
+	background: url(https://webgradients.com/public/webgradients_png/020%20New%20Life.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+}
+
+.hometitle {
+	color: #0d6efd ;
+	border: 10px solid #0d6efd;
+	cursor: pointer;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	border-radius: 10px;
+	font-weight: 900;
+	box-shadow: 3px 3px #343a40;
+	width: auto;
+	margin: 10px 10px 50px 10px;
+	background-image: url(https://images.immediate.co.uk/production/volatile/sites/23/2020/08/Beech-trees.-GettyImages-98871576-5cc0f6f.jpg);
+	padding:;
+}
+
+.para1 {
+	color: black;
+	font-size: x-large;
+	font-family: ariel, sans-serif ;
+	line-height: 35px;
+	margin: auto;
+	text-align: center;
+	flex-wrap: wrap;
+	margin: 10px 10px 10px 10px;
+
+}
+
+.para2 {
+	color: black;
+	font-size: x-large;
+	text-align: centre;
+	font-family: ariel, sans-serif ;
+	margin: 10px 10px 10px 10px;
+	height: auto;
+	line-height: 35px;
+}
+
+.links {
+	color: #370037;
+	font-family: 'Lato', sans-serif;
+	font-weight: 600;
+	list-style: none;
+}
+
+.gallerylink {
+	display: inline-block;
+	margin-right: 10px;
+	margin-top: 20px;
+}
+
+.gallerylink:hover {
+	transform: scale(1.05);
+	transition: 0.2s;
+}
+
+.registerlink {
+	display: inline-block;
+}
+
+.registerlink:hover {
+	transform: scale(1.05);
+	transition: 0.2s;
+}
+
+
+.frog {
+	float: left;
+	border-radius: 10px;
+	box-shadow: 3px 3px;
+	height: 100%;
+	margin: 10px 10px 10px 10px;
+
+}
+
+.frog:hover {
+	transform: scale(1.05);
+}
+
+
+.crested {
+	float: right;
+	box-shadow: 3px 3px #343a40;
+	border-radius: 10px;
+	margin: 10px 10px 10px 10px;
+}
+
+.crested:hover {
+	transform: scale(1.05);
+}
+
+footer {
+	font-family: 'Lato', sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+	text-align: center;
+	background-color: rgb(0,0,0,0.2);
+	text-align: center;
+	margin: 10px 10px 10px 10px;
+	border-radius: 10px;
+}
+
+
+.frogpara {
+	height: auto;
+	background-color: rgb(0,0,0,0.2);
+	border-radius: 10px;
+	margin: 10px 10px 50px 10px;
+
+}
+
+img {
+	transition: all 0.5s;
+}
+
+.crestedpara {
+	height: auto;
+	background-color: rgb(0,0,0,0.2);
+	border-radius: 10px;
+	margin: 10px 10px 50px 10px;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+}
